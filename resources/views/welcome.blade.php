@@ -159,9 +159,6 @@
                     <a href="#about" class="navbar-item">
                     Learn more
                     </a>
-                    <a href="#logn" class="navbar-item">
-                    login
-                    </a>
                 </div>
                 </div>
             </div>
@@ -225,9 +222,9 @@
                     <p id="logn" class="links">
                         @if (Route::has('login'))
                             @auth
-                                <a  class="login" href="{{ url('/home') }}">Home</a>
+                                <a  class="login button is-success" href="{{ url('/home') }}">Home</a>
                             @else
-                            <a class="login" href="{{ route('login') }}">Login</a>
+                            <a class="login button is-success" href="{{ route('login') }}">Login</a>
                             @endauth
                         @endif
                             <a style="display: none" class="login" href="#learnmore">

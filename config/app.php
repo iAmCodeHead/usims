@@ -167,9 +167,9 @@ return [
         /*
          * Package Service Providers...
          */
-        Barryvdh\Debugbar\ServiceProvider::class,
+        // Barryvdh\Debugbar\ServiceProvider::class,
         Mavinoo\LaravelBatch\LaravelBatchServiceProvider::class,
-        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
+        // Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         Lab404\Impersonate\ImpersonateServiceProvider::class,
         /*
          * Application Service Providers...
@@ -227,8 +227,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Batch' => Mavinoo\LaravelBatch\LaravelBatchFacade::class,
-        'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'Batch' => Mavinoo\LaravelBatch\LaravelBatchFacade::class
+        // 'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
 ];
