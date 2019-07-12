@@ -13,8 +13,9 @@ yarn-error.log
 .php_cs.cache
 .rnd
 .env.example
+.github/
 .vscode/
 CODE_OF_CONDUCT.md
 CONTRIBUTING.md
+USIMS-documentation.txt
 readme.md
-.github/
