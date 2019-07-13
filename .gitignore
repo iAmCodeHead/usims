@@ -9,12 +9,6 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+.env
 .php_cs.cache
 .rnd
-.env.example
-.github/
-.vscode/
-CODE_OF_CONDUCT.md
-CONTRIBUTING.md
-USIMS-documentation.txt
-readme.md
